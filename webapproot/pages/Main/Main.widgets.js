@@ -7,11 +7,8 @@ Main.widgets = {
 {"label":"Perfiles de usuarios","separator":undefined,"defaultLabel":"Perfiles de usuarios","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":undefined,"children":[]}
 ]},
 {"label":"Perfiles","separator":undefined,"defaultLabel":"Perfiles","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":"lyPerfiles","children":[]},
-{"label":"Formularios","separator":undefined,"defaultLabel":"Formularios","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":undefined,"children":[
-{"label":"Formularios de Perfiles","separator":undefined,"defaultLabel":"Formularios de Perfiles","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":undefined,"children":[]},
-{"label":"Excepciones","separator":undefined,"defaultLabel":"Excepciones","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":undefined,"children":[]}
-]}
-],"localizationStructure":{}}, {}]
+{"label":"Formularios","separator":undefined,"defaultLabel":"Formularios","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":"lyFormularios","children":[]}
+],"localizationStructure":{},"styles":{}}, {}]
 		}],
 		panel2: ["wm.Panel", {"height":"85%","horizontalAlign":"left","layoutKind":"left-to-right","verticalAlign":"top","width":"100%"}, {}, {
 			lyMain: ["wm.Layers", {"styles":{}}, {}, {
