@@ -13,7 +13,7 @@ dgNavBar: ["wm.DojoMenu", {"fullStructure":[
 {"label":"Usuarios","separator":undefined,"defaultLabel":"Usuarios","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":undefined,"children":[
 {"label":"Perfiles de usuarios","separator":undefined,"defaultLabel":"Perfiles de usuarios","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":undefined,"children":[]}
 ]},
-{"label":"Perfiles","separator":undefined,"defaultLabel":"Perfiles","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":undefined,"children":[]},
+{"label":"Perfiles","separator":undefined,"defaultLabel":"Perfiles","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":"lyPerfiles","children":[]},
 {"label":"Formularios","separator":undefined,"defaultLabel":"Formularios","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":undefined,"children":[
 {"label":"Formularios de Perfiles","separator":undefined,"defaultLabel":"Formularios de Perfiles","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":undefined,"children":[]},
 {"label":"Excepciones","separator":undefined,"defaultLabel":"Excepciones","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":undefined,"children":[]}

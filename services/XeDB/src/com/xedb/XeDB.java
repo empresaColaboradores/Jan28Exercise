@@ -10,12 +10,11 @@ import com.wavemaker.runtime.service.LiveDataService;
 import com.wavemaker.runtime.service.PagingOptions;
 import com.wavemaker.runtime.service.PropertyOptions;
 import com.wavemaker.runtime.service.TypedServiceReturn;
-import com.xedb.data.Perfusua;
 
 
 /**
  *  Operations for service "XeDB"
- *  01/28/2016 11:33:31
+ *  01/28/2016 11:38:03
  * 
  */
 @SuppressWarnings("unchecked")
@@ -26,8 +25,8 @@ public class XeDB
     private DataServiceManager dsMgr;
     private TaskManager taskMgr;
 
-    public Perfusua getPerfusuaById(Long id) {
-        List<Perfusua> rtn = ((List<Perfusua> ) dsMgr.invoke(taskMgr.getQueryTask(), (XeDBConstants.getPerfusuaByIdQueryName), id));
+    public com.xedb.data.Perfusua getPerfusuaById(Long id, PagingOptions pagingOptions) {
+        List<com.xedb.data.Perfusua> rtn = ((List<com.xedb.data.Perfusua> ) dsMgr.invoke(taskMgr.getQueryTask(), (XeDBConstants.getPerfusuaByIdQueryName), id, pagingOptions));
         if (rtn.isEmpty()) {
             return null;
         } else {

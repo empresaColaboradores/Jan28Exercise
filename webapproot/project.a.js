@@ -241,6 +241,271 @@ wm.types = {
 			"internal": true,
 			"primitiveType": "String"
 		},
+		"com.xedb.data.Formperf": {
+			"fields": {
+				"activo": {
+					"exclude": [],
+					"fieldOrder": 1,
+					"fieldSubType": null,
+					"include": [],
+					"isList": false,
+					"noChange": [],
+					"required": true,
+					"type": "java.lang.String"
+				},
+				"formulario": {
+					"exclude": [],
+					"fieldOrder": 2,
+					"fieldSubType": null,
+					"include": [],
+					"isList": false,
+					"noChange": [],
+					"required": true,
+					"type": "com.xedb.data.Formulario"
+				},
+				"idFormperf": {
+					"exclude": [],
+					"fieldOrder": 0,
+					"fieldSubType": null,
+					"include": ["delete", "read", "update", "insert"],
+					"isList": false,
+					"noChange": ["delete", "read", "update"],
+					"required": true,
+					"type": "java.lang.Long"
+				},
+				"perfil": {
+					"exclude": [],
+					"fieldOrder": 3,
+					"fieldSubType": null,
+					"include": [],
+					"isList": false,
+					"noChange": [],
+					"required": true,
+					"type": "com.xedb.data.Perfil"
+				}
+			},
+			"internal": false,
+			"liveService": true,
+			"service": "XeDB"
+		},
+		"com.xedb.data.Formulario": {
+			"fields": {
+				"activo": {
+					"exclude": [],
+					"fieldOrder": 3,
+					"fieldSubType": null,
+					"include": [],
+					"isList": false,
+					"noChange": [],
+					"required": true,
+					"type": "java.lang.String"
+				},
+				"codigo": {
+					"exclude": [],
+					"fieldOrder": 0,
+					"fieldSubType": null,
+					"include": ["delete", "read", "update", "insert"],
+					"isList": false,
+					"noChange": ["delete", "read", "update"],
+					"required": true,
+					"type": "java.lang.Long"
+				},
+				"descripcion": {
+					"exclude": [],
+					"fieldOrder": 1,
+					"fieldSubType": null,
+					"include": [],
+					"isList": false,
+					"noChange": [],
+					"required": true,
+					"type": "java.lang.String"
+				},
+				"formperfs": {
+					"exclude": [],
+					"fieldOrder": 5,
+					"fieldSubType": null,
+					"include": [],
+					"isList": true,
+					"noChange": [],
+					"required": false,
+					"type": "com.xedb.data.Formperf"
+				},
+				"formusuas": {
+					"exclude": [],
+					"fieldOrder": 4,
+					"fieldSubType": null,
+					"include": [],
+					"isList": true,
+					"noChange": [],
+					"required": false,
+					"type": "com.xedb.data.Formusua"
+				},
+				"nemotecnia": {
+					"exclude": [],
+					"fieldOrder": 2,
+					"fieldSubType": null,
+					"include": [],
+					"isList": false,
+					"noChange": [],
+					"required": true,
+					"type": "java.lang.String"
+				}
+			},
+			"internal": false,
+			"liveService": true,
+			"service": "XeDB"
+		},
+		"com.xedb.data.Formusua": {
+			"fields": {
+				"activo": {
+					"exclude": [],
+					"fieldOrder": 2,
+					"fieldSubType": null,
+					"include": [],
+					"isList": false,
+					"noChange": [],
+					"required": true,
+					"type": "java.lang.String"
+				},
+				"codigoUsuario": {
+					"exclude": [],
+					"fieldOrder": 1,
+					"fieldSubType": null,
+					"include": [],
+					"isList": false,
+					"noChange": [],
+					"required": true,
+					"type": "java.lang.String"
+				},
+				"formulario": {
+					"exclude": [],
+					"fieldOrder": 3,
+					"fieldSubType": null,
+					"include": [],
+					"isList": false,
+					"noChange": [],
+					"required": true,
+					"type": "com.xedb.data.Formulario"
+				},
+				"idFormusua": {
+					"exclude": [],
+					"fieldOrder": 0,
+					"fieldSubType": null,
+					"include": ["delete", "read", "update", "insert"],
+					"isList": false,
+					"noChange": ["delete", "read", "update"],
+					"required": true,
+					"type": "java.lang.Long"
+				}
+			},
+			"internal": false,
+			"liveService": true,
+			"service": "XeDB"
+		},
+		"com.xedb.data.Perfil": {
+			"fields": {
+				"activo": {
+					"exclude": [],
+					"fieldOrder": 2,
+					"fieldSubType": null,
+					"include": [],
+					"isList": false,
+					"noChange": [],
+					"required": true,
+					"type": "java.lang.String"
+				},
+				"codigo": {
+					"exclude": [],
+					"fieldOrder": 0,
+					"fieldSubType": null,
+					"include": ["delete", "read", "update", "insert"],
+					"isList": false,
+					"noChange": ["delete", "read", "update"],
+					"required": true,
+					"type": "java.lang.Long"
+				},
+				"descripcion": {
+					"exclude": [],
+					"fieldOrder": 1,
+					"fieldSubType": null,
+					"include": [],
+					"isList": false,
+					"noChange": [],
+					"required": false,
+					"type": "java.lang.String"
+				},
+				"formperfs": {
+					"exclude": [],
+					"fieldOrder": 4,
+					"fieldSubType": null,
+					"include": [],
+					"isList": true,
+					"noChange": [],
+					"required": false,
+					"type": "com.xedb.data.Formperf"
+				},
+				"perfusuas": {
+					"exclude": [],
+					"fieldOrder": 3,
+					"fieldSubType": null,
+					"include": [],
+					"isList": true,
+					"noChange": [],
+					"required": false,
+					"type": "com.xedb.data.Perfusua"
+				}
+			},
+			"internal": false,
+			"liveService": true,
+			"service": "XeDB"
+		},
+		"com.xedb.data.Perfusua": {
+			"fields": {
+				"activo": {
+					"exclude": [],
+					"fieldOrder": 2,
+					"fieldSubType": null,
+					"include": [],
+					"isList": false,
+					"noChange": [],
+					"required": true,
+					"type": "java.lang.String"
+				},
+				"codigoUsuario": {
+					"exclude": [],
+					"fieldOrder": 1,
+					"fieldSubType": null,
+					"include": [],
+					"isList": false,
+					"noChange": [],
+					"required": true,
+					"type": "java.lang.String"
+				},
+				"idPerfusua": {
+					"exclude": [],
+					"fieldOrder": 0,
+					"fieldSubType": null,
+					"include": ["delete", "read", "update", "insert"],
+					"isList": false,
+					"noChange": ["delete", "read", "update"],
+					"required": true,
+					"type": "java.lang.Long"
+				},
+				"perfil": {
+					"exclude": [],
+					"fieldOrder": 3,
+					"fieldSubType": null,
+					"include": [],
+					"isList": false,
+					"noChange": [],
+					"required": true,
+					"type": "com.xedb.data.Perfil"
+				}
+			},
+			"internal": false,
+			"liveService": true,
+			"service": "XeDB"
+		},
 		"double": {
 			"internal": true,
 			"primitiveType": "Number"
