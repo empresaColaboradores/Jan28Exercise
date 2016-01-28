@@ -10,11 +10,12 @@ layoutBox1: ["wm.Layout", {"horizontalAlign":"left","styles":{"backgroundColor":
 panel1: ["wm.Panel", {"height":"48px","horizontalAlign":"right","layoutKind":"left-to-right","verticalAlign":"middle","width":"100%"}, {}, {
 label1: ["wm.Label", {"align":"center","caption":"CRUD APP","padding":"4","styles":{"fontWeight":"bold"},"width":"82px"}, {}],
 dgNavBar: ["wm.DojoMenu", {"fullStructure":[
-{"label":"Usuarios","separator":undefined,"defaultLabel":"Usuarios","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":undefined,"children":[
-{"label":"Perfiles de usuarios","separator":undefined,"defaultLabel":"Perfiles de usuarios","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":undefined,"children":[]}
-]},
+{"label":"Usuarios","separator":undefined,"defaultLabel":"Usuarios","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":"lyUsuarios","children":[]},
+{"label":"Formularios","separator":undefined,"defaultLabel":"Formularios","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":"lyFormularios","children":[]},
 {"label":"Perfiles","separator":undefined,"defaultLabel":"Perfiles","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":"lyPerfiles","children":[]},
-{"label":"Formularios","separator":undefined,"defaultLabel":"Formularios","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":"lyFormularios","children":[]}
+{"label":"Perfiles de Usuario","separator":undefined,"defaultLabel":"Perfiles de Usuario","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":"lyPerfilesUsuarios","children":[]},
+{"label":"Formularios de Perfiles","separator":undefined,"defaultLabel":"Formularios de Perfiles","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":"lyFormulariosPerfiles","children":[]},
+{"label":"Excepciones","separator":undefined,"defaultLabel":"Excepciones","iconClass":undefined,"imageList":undefined,"idInPage":undefined,"isCheckbox":false,"onClick":"lyFormulariosUsuarios","children":[]}
 ],"localizationStructure":{},"styles":{}}, {}]
 }],
 panel2: ["wm.Panel", {"height":"85%","horizontalAlign":"left","layoutKind":"left-to-right","verticalAlign":"top","width":"100%"}, {}, {
