@@ -14,7 +14,7 @@ Main.widgets = {
 		panel2: ["wm.Panel", {"height":"85%","horizontalAlign":"left","layoutKind":"left-to-right","verticalAlign":"top","width":"100%"}, {}, {
 			lyMain: ["wm.Layers", {"styles":{}}, {}, {
 				lyUsuarios: ["wm.Layer", {"borderColor":"","caption":"layer1","horizontalAlign":"left","styles":{},"themeStyleType":"","verticalAlign":"top"}, {}, {
-					pcUsuarios: ["wm.PageContainer", {"deferLoad":true,"pageName":"PUsuarios","subpageEventlist":{},"subpageMethodlist":{},"subpageProplist":{}}, {}]
+					pcUsuarios: ["wm.PageContainer", {"deferLoad":true,"pageName":"PUsuarios","styles":{},"subpageEventlist":{},"subpageMethodlist":{},"subpageProplist":{}}, {}]
 				}],
 				lyPerfiles: ["wm.Layer", {"borderColor":"","caption":"layer1","horizontalAlign":"left","themeStyleType":"","verticalAlign":"top"}, {}, {
 					pcPerfiles: ["wm.PageContainer", {"deferLoad":true,"pageName":"PPerfiles","subpageEventlist":{},"subpageMethodlist":{},"subpageProplist":{}}, {}]
